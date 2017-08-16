@@ -43,7 +43,20 @@
         <service
             android:name=".services.MusicService"
             android:enabled="true"
-            android:exported="true"></service>
+            android:exported="true" />
+        <service
+            android:name=".services.ForegroundService"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".services.MyScheduleService"
+            android:enabled="true"
+            android:exported="true"/>
+        <service
+            android:name=".services.MyJobService"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.BIND_JOB_SERVICE"/>
     </application>
 
 </manifest>
