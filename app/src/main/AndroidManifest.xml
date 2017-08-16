@@ -45,10 +45,6 @@
             android:enabled="true"
             android:exported="true" />
         <service
-            android:name=".services.ForegroundService"
-            android:enabled="true"
-            android:exported="true" />
-        <service
             android:name=".services.MyScheduleService"
             android:enabled="true"
             android:exported="true"/>
